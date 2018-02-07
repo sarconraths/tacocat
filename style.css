@@ -3,61 +3,120 @@ body {
   font-family: 'Play', sans-serif;
 }
 
-p{
-  font-size: 100%;
+h1 {
+  margin: 0;
+  padding: 20px 0;
 }
 
-
-/* Header */
-.top_area {
-  background: black;
-  color: white;
-  height: 15%;
-  padding: 5px 15px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.comp_and_contact {
-  width: 100%;
-  height: 100%;
+.center {
+  text-align: center;
+}
+
+.top {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+
+  background-color: blue;
+  border: 1px solid black;
 }
 
-#quick_contact {
-  align-self: flex-end;
-  font-size: 0.8em;
+.top_text {
+  font-size: 1.2em;
 }
 
-#quick_contact .fa {
-  margin-right: 5px;
-}
-
-a.nosign {
-  color: inherit;
-  text-decoration: none;
-  align-self: center;
-}
-
-#company_name {
+.top_text-heading {
   font-size: 2em;
 }
 
-/* Navigation */
-.top_nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 20%;
+.topnav {
+  background-color: darkgrey;
+  margin-top: -1px;
 }
 
-.nav_card {
-  margin-top: 30px;
-  background-color: #e6e6e6;
-  color: #5d48ff;
-  font-weight: 700;
-  width: 200px;
+.topnav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.topnav ul li {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.topnav ul a:last-of-type li {
+  border-right: 1px solid black;
+}
+
+.topnav ul a {
+  width: 100%;
   height: 100%;
+
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.content {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 100%;
+}
+/* Slider */
+
+.slider-nav {
+  background-color: rgba(211, 211, 211, 0.6);
+  width: 15%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-nav i.fa {
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-nav_left {
+  position: relative;
+  left: 0;
+}
+
+.slider-nav_right {
+  position: relative;
+  left: 700px;
+  top: 0;
+}
+
+.slider_container {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 700px;
+  height: 230px;
+}
+
+.slide {
+  width: 700px;
+  height: 230px;
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  z-index: -1000;
 }
