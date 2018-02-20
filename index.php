@@ -57,20 +57,77 @@
 
 
     <div class="slider_container">
-      <div class="slider-nav slider-nav_left">
-        <i class="fa fa-angle-left"></i>
+      <div class="slide">
+        <img src="images/cloud.jpg" />
+        <p class="slide_description">
+          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
+        </p>
       </div>
 
-
-      <div class="slider-nav slider-nav_right">
-        <i class="fa fa-angle-right"></i>
+      <!-- <div class="slide">
+        <img src="images/cloud.jpg" />
+        <p class="slide_description">
+          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
+        </p>
       </div>
 
       <div class="slide">
         <img src="images/cloud.jpg" />
+        <p class="slide_description">
+          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
+        </p>
+      </div>
+
+      <div class="slide">
+        <img src="images/cloud.jpg" />
+        <p class="slide_description">
+          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
+        </p>
+      </div> -->
+
+    </div>
+
+    <div class="slider_container nav">
+        <i class="fa fa-angle-left slider-nav slider-nav_left"></i>
+        <i class="fa fa-angle-right slider-nav slider-nav_right"></i>
+    </div>
+
+    <div class="landing-content">
+      <div class="content-block">
+        <i class="fa fa-rocket"></i>
+        <h3>Voll modern</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <i class="fa fa-rocket"></i>
+        <h3>Rasend schnell</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+
+      <div class="content-block">
+        <i class="fa fa-rocket"></i>
+        <h3>Erbarmungslos kompetent</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
       </div>
 
     </div>
+
   </div>
 
 
