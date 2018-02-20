@@ -10,11 +10,28 @@
 
 <body>
 
+
+
   <div class="top container">
-    <img src="http://pixelartmaker.com/art/445b4b928551ad8.png" height="100" />
+
+    <img src="images/tacocat.png" />
     <div class="top_text">
       <span class="top_text-heading">Tacocat IT-Service</span><br />
       <span>...gut beraten, wie man's auch dreht und wendet</span>
+    </div>
+
+    <div class="social-links">
+      <div class="social-link">
+        <a href="https://www.facebook.com/spacex" target="blank"><i class="fa fa-facebook"></i></a>
+      </div>
+
+      <div class="social-link">
+        <i class="fa fa-twitter"></i>
+      </div>
+
+      <div class="social-link">
+        <i class="fa fa-linkedin"></i>
+      </div>
     </div>
   </div>
 
@@ -53,38 +70,33 @@
   </div>
 
   <div class="container center content">
-    <h1>Ihr IT-Dienstleister im Herzen von Augsburg!</h1>
+    <h1>Ihr IT-Dienstleister am Puls der Zeit!</h1>
 
 
-    <div class="slider_container">
-      <div class="slide">
-        <img src="images/cloud.jpg" />
-        <p class="slide_description">
-          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
-        </p>
-      </div>
+    <div id="slider" class="slider_container">
 
+      <ul class="slides">
+        <li id="firstslide" class="slide">
+          <img src="images/cloud.jpg" />
+          <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
+        </li>
+
+        <li class="slide">
+          <img src="images/safety.jpg" />
+          <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
+        </li>
+
+        <li class="slide lastslide">
+          <img src="images/cloud.jpg" />
+          <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
+        </li>
+      </ul>
       <!-- <div class="slide">
         <img src="images/cloud.jpg" />
         <p class="slide_description">
           <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
         </p>
-      </div>
-
-      <div class="slide">
-        <img src="images/cloud.jpg" />
-        <p class="slide_description">
-          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
-        </p>
-      </div>
-
-      <div class="slide">
-        <img src="images/cloud.jpg" />
-        <p class="slide_description">
-          <span>IT-Infrastruktur - </span><br  /><span class="right">von Profis für Profis!</span>
-        </p>
       </div> -->
-
     </div>
 
     <div class="slider_container nav">
@@ -97,10 +109,8 @@
         <i class="fa fa-rocket"></i>
         <h3>Voll modern</h3>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Die Technologie von morgen, schon heute? Für uns selbstverständlich dank laufender Fortbildungen,
+          motivierter Mitarbeiter und dem gewissen Weitblick.
         </p>
       </div>
 
@@ -108,10 +118,8 @@
         <i class="fa fa-rocket"></i>
         <h3>Rasend schnell</h3>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Verlassen Sie sich als Bestandskunde auf unseren 24-Stunden-Notfallservice. Rufen Sie uns an oder nutzen Sie unser
+          komfortables Kontaktformular, wir machen uns direkt ans Werk.
         </p>
       </div>
 
@@ -119,10 +127,8 @@
         <i class="fa fa-rocket"></i>
         <h3>Erbarmungslos kompetent</h3>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Wir setzen auf Wissen und Erfahrung - für jedes Thema haben wir den richtigen
+          Ansprechpartner. Halbe Sachen sind nicht mal halb gut genug!
         </p>
       </div>
 
