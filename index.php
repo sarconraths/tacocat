@@ -70,24 +70,34 @@
   </div>
 
   <div class="container center content">
-    <h1>Ihr IT-Dienstleister am Puls der Zeit!</h1>
+    <h1 id="headline">Ihr IT-Dienstleister am Puls der Zeit!</h1>
 
 
     <div id="slider" class="slider_container">
 
       <ul class="slides">
         <li id="firstslide" class="slide">
-          <img src="images/cloud.jpg" />
+          <img src="images/structure.jpg" />
           <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
         </li>
 
         <li class="slide">
           <img src="images/safety.jpg" />
-          <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
+          <p class="slide_description"><span>IT-Sicherheit -</span><br /><span class="right">immer einen Schritt voraus!</span></p>
+        </li>
+
+        <li class="slide">
+          <img src="images/support.jpg" />
+          <p class="slide_description"><span>Support -</span><br /><span class="right">in besten Händen!</span></p>
+        </li>
+
+        <li class="slide">
+          <img src="images/cloud.jpg" />
+          <p class="slide_description"><span>Cloud-Services -</span><br /><span class="right">irgendeine Cloud floskel!</span></p>
         </li>
 
         <li class="slide lastslide">
-          <img src="images/cloud.jpg" />
+          <img src="images/structure.jpg" />
           <p class="slide_description"><span>IT-Infrastruktur -</span><br /><span class="right">von Profis für Profis!</span></p>
         </li>
       </ul>
@@ -99,10 +109,10 @@
       </div> -->
     </div>
 
-    <div class="slider_container nav">
-        <i class="fa fa-angle-left slider-nav slider-nav_left"></i>
-        <i class="fa fa-angle-right slider-nav slider-nav_right"></i>
-    </div>
+    <!-- <div class="slider_container nav">
+        <i id="sliderNav_left" class="fa fa-angle-left slider-nav slider-nav_left"></i>
+        <i id="sliderNav_right" class="fa fa-angle-right slider-nav slider-nav_right"></i>
+    </div> -->
 
     <div class="landing-content">
       <div class="content-block">

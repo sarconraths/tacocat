@@ -1,25 +1,26 @@
 $('document').ready(function(){
+  var width = 720;
+  var animationSpeed = 1000;
+  var pause = 3000;
+  var currentSlide = 1;
 
-setInterval(slideRight, 3000);
-  currentslide = 0;
+  var $slider = $('#slider');
+  var $slideContainer = $slider.find('.slides');
+  var $slides = $slideContainer.find('.slide');
 
-function slideRight(){
-  var width = 700;
-  var animationSpeed = 2000;
-  var slideCount = ($('#slider .slides > li').length);
+  var interval = setInterval(function slideRight(){
+    $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function slideRight(){
+      currentSlide++;
+        if(currentSlide === $slides.length) {
+          currentSlide = 1;
+          $slideContainer.css('margin-left', 0);
+        }
+      }
+    )
+  }, pause);
 
-  $('#firstslide').animate({'margin-left': '-='+width}, animationSpeed);
-  currentslide++;
-  returntoFirst(slideCount, currentslide);
-}
+  var headlineOffset = $('#headline').offset();
 
-function returntoFirst(slideCount, currentslide){
-  clearInterval(slideRight);
-  
-  if(currentslide == slideCount){
-    $('#firstslide').css({'margin-left': 0});
-    currentslide = 0;
-  }
-}
+  $('.social-links').css('margin-top', headlineOffset.top); 
 
 });
