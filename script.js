@@ -1,4 +1,6 @@
 $('document').ready(function(){
+
+  // Slider
   var width = 720;
   var animationSpeed = 1000;
   var pause = 3000;
@@ -18,9 +20,5 @@ $('document').ready(function(){
       }
     )
   }, pause);
-
-  var headlineOffset = $('#headline').offset();
-
-  $('.social-links').css('margin-top', headlineOffset.top); 
 
 });
