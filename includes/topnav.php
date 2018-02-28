@@ -11,7 +11,7 @@
   <div class="topnav">
     <ul>
         <div class="menu-item_category">
-          <a href="../index.php">
+          <a href="/tacocat/index.php">
             <li class="menu-item">
               Home
             </li>

@@ -21,6 +21,11 @@ h3 {
   text-align: center;
 }
 
+.inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* Top area */
 .top {
   width: 100%;
@@ -28,6 +33,7 @@ h3 {
   background-color: rgba(0,0,0,0.8);
   position: fixed;
   color: white;
+  z-index: 5000;
 }
 
 .top #tacocat-logo {
@@ -38,7 +44,7 @@ h3 {
   top: 25%;
   }
 
-  .top #tacocat-comp {
+.top #tacocat-comp {
   font-size: 200%;
   position: relative;
   top: 10%;
@@ -111,17 +117,83 @@ h3 {
 ul.nav_second a li {
   margin-top: 10px;
 }
-/* Content */
 
-img.header {
+/* Header */
+.header-container {
+  max-height: 600px;
   position: relative;
   top: 0;
-  width: 100%;
-  z-index: -1000;
+  padding: 10% 0 5% 30%;
 }
 
-.content {
+.header-container.home {
+  background-image: url("images/header.jpg");
+}
+
+.header-container.home > div {
+  display: inline-block;
+}
+
+.show-tab {
+  color: black;
+  font-size: 110%;
+  background-color: rgba(255,255,255,0.85);
+  vertical-align: top;
+  margin-left: 20px;
+  height: 273px;
+  width: 400px;
+}
+
+.header-container.home > div.hide {
+  display: none;
+}
+
+.show-tab div {
+  text-align: center;
+  width: 80%;
   height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-to-content {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  color: black;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  text-decoration: none;
+}
+
+.go-to-content:hover {
+  background-color: darkgrey;
+}
+
+.header-tabs p {
+  color: white;
+  background-color: black;
+  font-size: 150%;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.header-tabs p:last-of-type {
+  margin-bottom: 0;
+}
+
+.header-tabs p:hover {
+  background-color: orange;
+}
+
+/* Content */
+
+.content-noheader {
+  padding-top: 150px;
 }
 
 /* Slider */
@@ -149,34 +221,6 @@ img.header {
   height: 230px;
 }
 
-.slider-nav {
-  background-color: rgba(211, 211, 211, 0.6);
-  width: 15%;
-  height: 100%;
-
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-i.slider-nav.fa {
-  font-size: 3em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider_container.nav {
-  display: none;
-  width: 702px;
-  height: 230px;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-top: -231px;
-  border: none;
-}
-
 .slide img {
   height: 100%;
   width: 100%;
@@ -185,6 +229,7 @@ i.slider-nav.fa {
 
 .slide_description {
   line-height: 140%;
+  text-align: center;
   margin-top: -100px;
   font-size: 33px;
   color: #ffffff;
@@ -205,19 +250,15 @@ i.slider-nav.fa {
   margin-top: 40px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .content-block {
-  max-width: 30%;
+  max-width: 28%;
 }
 
 .landing-content i {
   font-size: 30px;
-}
-
-.landing-content p {
-  margin: 0 30px;
 }
 
 /* contact form */

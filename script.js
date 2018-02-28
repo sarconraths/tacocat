@@ -21,4 +21,11 @@ $('document').ready(function(){
     )
   }, pause);
 
+  $('.tab').click(function(){
+    var slideClass = $(this).attr('id');
+    console.log(slideClass);
+    $('.show-tab').css('display', 'none');
+    $('.'+slideClass).css('display', 'inline-block');
+  });
+
 });
