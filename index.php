@@ -1,6 +1,5 @@
 <?php
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/header.php');
-    // include($doc_root + '/includes/logo.php');
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/topnav.php');
 ?>
 
@@ -37,8 +36,8 @@
       <div>
         <h3>IT-Infrastruktur</h3>
         <p>
-           Wir sind Ihr moderner IT-Dienstleister mit Standorten in ganz Deutschland.
-           Unser Portfolio reicht von dem Aufbau einer leistungsstarken Infrastruktur bis hin zu individuellen Software-Lösungen.
+          Eine gute und zuverlässige Infrastruktur ist das Rückgrat einer jeden Firma.
+          Wir optimieren diese nach Ihren Anforderungen und helfen bei der Instandhaltung.
         </p>
         <a href="/tacocat/pages/infrastruktur.php"  class="go-to-content">Jetzt entdecken!</a>
       </div>
@@ -47,8 +46,8 @@
       <div>
         <h3>IT-Sicherheit</h3>
         <p>
-           Wir sind Ihr moderner IT-Dienstleister mit Standorten in ganz Deutschland.
-           Unser Portfolio reicht von dem Aufbau einer leistungsstarken Infrastruktur bis hin zu individuellen Software-Lösungen.
+          Mit wachsender Komplexität kommen neue Gefahren für Ihre Daten und Systeme. Schützen
+          Sie sich vor Angriffen mithilfe neuester Technologie und unsrem Know-How.
         </p>
         <a href="/tacocat/pages/sicherheit.php"  class="go-to-content">Jetzt entdecken!</a>
       </div>
@@ -57,8 +56,8 @@
       <div>
         <h3>Support</h3>
         <p>
-           Wir sind Ihr moderner IT-Dienstleister mit Standorten in ganz Deutschland.
-           Unser Portfolio reicht von dem Aufbau einer leistungsstarken Infrastruktur bis hin zu individuellen Software-Lösungen.
+          Läuft mal etwas nicht nach Plan? Kein Grund zu verzweifeln, unsere Service-Mitarbeiter
+          helfen schnell und unkompliziert weiter.
         </p>
         <a href="/tacocat/pages/support.php"  class="go-to-content">Jetzt entdecken!</a>
       </div>
@@ -67,8 +66,7 @@
       <div>
         <h3>Cloud-Services</h3>
         <p>
-           Wir sind Ihr moderner IT-Dienstleister mit Standorten in ganz Deutschland.
-           Unser Portfolio reicht von dem Aufbau einer leistungsstarken Infrastruktur bis hin zu individuellen Software-Lösungen.
+          Cloud-Lösungen ergänzen zunehmend die eigene IT-Infrastruktur und sind eine zentrale Voraussetzung der Digitalisierung.
         </p>
         <a href="/tacocat/pages/support.php"  class="go-to-content">Jetzt entdecken!</a>
       </div>
@@ -77,8 +75,8 @@
       <div>
         <h3>Software-Entwicklung</h3>
         <p>
-           Wir sind Ihr moderner IT-Dienstleister mit Standorten in ganz Deutschland.
-           Unser Portfolio reicht von dem Aufbau einer leistungsstarken Infrastruktur bis hin zu individuellen Software-Lösungen.
+          Zur passenden Hardware gehört natürlich die entsprechende Software. Sprechen Sie mit uns über maßgeschneiderte
+          Lösungen - anwenderfreundlich und stabil.
         </p>
         <a href="/tacocat/pages/software.php"  class="go-to-content">Jetzt entdecken!</a>
       </div>
@@ -103,11 +101,12 @@
 
     <div class="landing-content">
       <div class="content-block">
-        <i class="fa fa-rocket"></i>
-        <h3>Voll modern</h3>
+        <i class="fa fa-wrench"></i>
+        <h3>Voll kreativ</h3>
         <p>
-          Die Technologie von morgen, schon heute? Für uns selbstverständlich dank laufender Fortbildungen,
-          motivierter Mitarbeiter und dem gewissen Weitblick.
+          Wir strotzen nur so vor Ideen. Brauchen Sie Unterstützung
+          bei der Konzeption Ihrer Projekte? Kommen Sie einfach auf uns zu,
+          wir helfen Ihnen gerne.
         </p>
       </div>
 
@@ -121,8 +120,8 @@
       </div>
 
       <div class="content-block">
-        <i class="fa fa-rocket"></i>
-        <h3>Erbarmungslos kompetent</h3>
+        <i class="fa fa-suitcase"></i>
+        <h3>Ausgesprochen kompetent</h3>
         <p>
           Wir setzen auf Wissen und Erfahrung - für jedes Thema haben wir den richtigen
           Ansprechpartner. Halbe Sachen sind nicht mal halb gut genug!
@@ -131,6 +130,6 @@
     </div>
 
   </div>
-
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/footer.php'); ?>
 </body>
 </html

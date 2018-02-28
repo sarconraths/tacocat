@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Play', sans-serif;
+  padding-bottom: 70px;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h3 {
 }
 
 .inner {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -191,9 +192,8 @@ ul.nav_second a li {
 }
 
 /* Content */
-
 .content-noheader {
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 /* Slider */
@@ -245,7 +245,6 @@ ul.nav_second a li {
 }
 
 /* Main Page Content */
-
 .landing-content {
   margin-top: 40px;
 
@@ -262,10 +261,6 @@ ul.nav_second a li {
 }
 
 /* contact form */
-#contact-form {
-  width: 70%;
-}
-
 #contact-form form {
   display: flex;
   flex-wrap: wrap;
@@ -299,4 +294,32 @@ ul.nav_second a li {
 
 #contact-form input {
   padding: 4px;
+}
+
+/* Footer */
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0,19,105,0.8);
+}
+
+.footer-items {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-items a,
+.footer-items span {
+  color: white;
+  font-size: 120%;
+}
+
+#footer li {
+  list-style-type: none;
 }
