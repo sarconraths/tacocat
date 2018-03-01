@@ -2,6 +2,7 @@
   // include($doc_root + '/includes/logo.php');
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/header.php');
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/topnav.php');
+  include($_SERVER['DOCUMENT_ROOT'].'/tacocat/form_validation.php');
 ?>
 
 <img src="../images/contact.jpg" class="header" />
@@ -10,7 +11,7 @@
 
 <div id="contact-form">
   <h1 id="headline">Der direkte Draht zu uns!</h1>
-  <form action="" method="POST">
+  <form method="get" action="success.php">
 
     <div class="input-field">
       <label for="firstname">Vorname</label>
@@ -18,16 +19,16 @@
     </div>
     <div class="input-field">
       <label for="lastname">Nachname</label>
-      <input type="text" name="nachname" id="nachname" />
+      <input type="text" name="lastname" id="lastname" />
     </div>
     <div class="input-field">
-      <label for="firma">Firma</label>
-      <input type="text" name="firma" id="firma" />
+      <label for="comp">Firma</label>
+      <input type="text" name="comp" id="comp" />
     </div>
     <br />
     <div class="input-field">
-      <label for="telefon">Telefon</label>
-      <input type="text" name="telefon" id="telefon" />
+      <label for="phone">Telefon</label>
+      <input type="text" name="phone" id="phone" />
     </div>
     <div class="input-field">
       <label for="mail-1">E-Mail</label>
@@ -40,12 +41,14 @@
     <br />
     <div class="input-field full">
       <label for="Nachricht">Ihre Nachricht an uns</label>
-      <textarea rows="8"></textarea>
+      <textarea rows="8" name="message"></textarea>
     </div>
-    <button type="submit" id="submit">Absenden</button>
+    <button type="submit" id="submit" name="submit">Absenden</button>
 
   </form>
 </div>
 </div>
+
+
 <?php include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/footer.php'); ?>
 </body>

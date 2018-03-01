@@ -13,6 +13,7 @@ h3 {
   margin: 10px;
 }
 
+/* General Positioning Classes */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -37,19 +38,22 @@ h3 {
   z-index: 5000;
 }
 
+.tacocat-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
 .top #tacocat-logo {
   border: 1px solid white;
   background-color: white;
   height: 50%;
-  position: relative;
-  top: 25%;
-  }
+  margin: 0 20px;
+}
 
 .top #tacocat-comp {
-  font-size: 200%;
-  position: relative;
-  top: 10%;
-  left: 20px;
+  font-size: 200%
 }
 
 /* Top Navigation */
@@ -105,6 +109,10 @@ h3 {
   color: white;
   font-size: 120%;
   text-decoration: none;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
 }
 
 .nav_second {
@@ -193,7 +201,8 @@ ul.nav_second a li {
 
 /* Content */
 .content-noheader {
-  padding-top: 120px;
+  position: relative;
+  top: 150px;
 }
 
 /* Slider */
@@ -296,6 +305,11 @@ ul.nav_second a li {
   padding: 4px;
 }
 
+/* Contact Form - Success Page */
+.success-message {
+  border: 1px solid black;
+}
+
 /* Footer */
 #footer {
   position: fixed;
@@ -306,7 +320,7 @@ ul.nav_second a li {
 }
 
 .footer-items {
-  width: 50%;
+  width: 70%;
   height: 100%;
   margin: 0 auto;
   display: flex;

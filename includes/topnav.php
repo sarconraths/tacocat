@@ -1,6 +1,8 @@
 <div class="top">
-  <img src="/tacocat/images/tacocat.png" id="tacocat-logo"/>
-  <span id="tacocat-comp">Tacocat IT-Service</span>
+  <div class="tacocat-logo">
+    <img src="/tacocat/images/tacocat.png" id="tacocat-logo" />
+    <span id="tacocat-comp">Tacocat IT-Service</span>
+  </div>
 
   <div class="social-links">
     <a href="https://www.facebook.com/spacex" target="blank"><i class="fa fa-facebook"></i></a>
