@@ -130,7 +130,5 @@
     </div>
 
 
-    </div>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/footer.php'); ?>
-</body>
-</html
+  </div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/footer.php'); ?>

@@ -5,9 +5,12 @@
 
 <div class="center container content-noheader success-message">
 
-<h1>Vielen Dank für Ihre Anfrage, sehr geehrte/r ></h1>
+<h1>Vielen Dank für Ihre Anfrage</h1>
 <p>
-  <strong>Ihre Nachricht:</strong> 
+  <?php if(!empty($_POST['message'])){
+    echo "<strong>Ihre Nachricht: </strong>"; 
+    echo $_POST['message'];
+  }; ?>
 </p>
 <p>
   Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.

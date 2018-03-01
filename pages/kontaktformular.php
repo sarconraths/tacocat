@@ -2,7 +2,6 @@
   // include($doc_root + '/includes/logo.php');
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/header.php');
   include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/topnav.php');
-  include($_SERVER['DOCUMENT_ROOT'].'/tacocat/form_validation.php');
 ?>
 
 <img src="../images/contact.jpg" class="header" />
@@ -11,7 +10,7 @@
 
 <div id="contact-form">
   <h1 id="headline">Der direkte Draht zu uns!</h1>
-  <form method="get" action="success.php">
+  <form method="post" action="success.php">
 
     <div class="input-field">
       <label for="firstname">Vorname</label>
@@ -51,4 +50,3 @@
 
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/tacocat/includes/footer.php'); ?>
-</body>
